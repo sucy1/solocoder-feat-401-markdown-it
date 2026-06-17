@@ -15,16 +15,21 @@ TOC with ordered list:
 .
 <!-- toc -->
 <ol class="table-of-contents">
-<li><a href="#title">Title</a><ol>
-<li><a href="#section-1">Section 1</a><ol>
-<li><a href="#sub-11">Sub 1.1</a></li>
-</ol>
-</li>
-<li><a href="#section-2">Section 2</a><ol>
-<li><a href="#sub-21">Sub 2.1</a></li>
-</ol>
-</li>
-</ol>
+<li><a href="#title">Title</a>
+  <ol>
+  <li><a href="#section-1">Section 1</a>
+    <ol>
+    <li><a href="#sub-11">Sub 1.1</a>
+    </li>
+    </ol>
+  </li>
+  <li><a href="#section-2">Section 2</a>
+    <ol>
+    <li><a href="#sub-21">Sub 2.1</a>
+    </li>
+    </ol>
+  </li>
+  </ol>
 </li>
 </ol>
 

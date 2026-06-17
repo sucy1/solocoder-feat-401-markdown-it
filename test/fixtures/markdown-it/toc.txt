@@ -11,12 +11,15 @@ basic TOC with unordered list:
 .
 <!-- toc -->
 <ul class="table-of-contents">
-<li><a href="#heading-1">Heading 1</a><ul>
-<li><a href="#heading-2">Heading 2</a><ul>
-<li><a href="#heading-3">Heading 3</a></li>
-</ul>
-</li>
-</ul>
+<li><a href="#heading-1">Heading 1</a>
+  <ul>
+  <li><a href="#heading-2">Heading 2</a>
+    <ul>
+    <li><a href="#heading-3">Heading 3</a>
+    </li>
+    </ul>
+  </li>
+  </ul>
 </li>
 </ul>
 
@@ -48,9 +51,11 @@ old content that should be replaced
 .
 <!-- toc -->
 <ul class="table-of-contents">
-<li><a href="#hello">Hello</a><ul>
-<li><a href="#world">World</a></li>
-</ul>
+<li><a href="#hello">Hello</a>
+  <ul>
+  <li><a href="#world">World</a>
+  </li>
+  </ul>
 </li>
 </ul>
 
@@ -74,13 +79,17 @@ duplicate headings - should have unique slugs:
 .
 <!-- toc -->
 <ul class="table-of-contents">
-<li><a href="#title">Title</a><ul>
-<li><a href="#section">Section</a></li>
-</ul>
+<li><a href="#title">Title</a>
+  <ul>
+  <li><a href="#section">Section</a>
+  </li>
+  </ul>
 </li>
-<li><a href="#title-1">Title</a><ul>
-<li><a href="#section-1">Section</a></li>
-</ul>
+<li><a href="#title-1">Title</a>
+  <ul>
+  <li><a href="#section-1">Section</a>
+  </li>
+  </ul>
 </li>
 </ul>
 
@@ -114,9 +123,11 @@ TOC with Chinese characters:
 .
 <!-- toc -->
 <ul class="table-of-contents">
-<li><a href="#标题一">标题一</a><ul>
-<li><a href="#小节一">小节一</a></li>
-</ul>
+<li><a href="#%E6%A0%87%E9%A2%98%E4%B8%80">标题一</a>
+  <ul>
+  <li><a href="#%E5%B0%8F%E8%8A%82%E4%B8%80">小节一</a>
+  </li>
+  </ul>
 </li>
 </ul>
 
@@ -136,9 +147,11 @@ headings with special characters:
 .
 <!-- toc -->
 <ul class="table-of-contents">
-<li><a href="#hello--goodbye">Hello &amp; Goodbye</a><ul>
-<li><a href="#whats-up">What's up?</a></li>
-</ul>
+<li><a href="#hello--goodbye">Hello &amp; Goodbye</a>
+  <ul>
+  <li><a href="#whats-up">What's up?</a>
+  </li>
+  </ul>
 </li>
 </ul>
 
@@ -161,8 +174,10 @@ Some intro text.
 <p>Some intro text.</p>
 <!-- toc -->
 <ul class="table-of-contents">
-<li><a href="#first">First</a></li>
-<li><a href="#second">Second</a></li>
+<li><a href="#first">First</a>
+</li>
+<li><a href="#second">Second</a>
+</li>
 </ul>
 
 <!-- /toc -->

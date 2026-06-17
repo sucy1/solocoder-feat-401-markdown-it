@@ -13,9 +13,11 @@ maxDepth option - only h1 and h2:
 .
 <!-- toc -->
 <ul class="table-of-contents">
-<li><a href="#h1">H1</a><ul>
-<li><a href="#h2">H2</a></li>
-</ul>
+<li><a href="#h1">H1</a>
+  <ul>
+  <li><a href="#h2">H2</a>
+  </li>
+  </ul>
 </li>
 </ul>
 
